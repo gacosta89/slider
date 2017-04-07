@@ -3,26 +3,28 @@
     <head>
         <title>SLIDER</title>
         <link href="static/normalize.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="static/slick/slick.css"/>
         <link href="static/main.css" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <script type="text/javascript" src="static/jquery.js"></script>
+        <script type="text/javascript" src="static/slick/slick.js"></script>
+        <script type="text/javascript" src="static/index.js"></script>
     </head>
     <body>
         <div class="main-container">
-            <div class="btn btn-prev">
+            <div class="btn" id="prev">
                 <i class="material-icons">keyboard_arrow_left</i>
             </div>
-            <div class="img-container">
-                <div class="image-container">
-                    <img src="static/images/black.jpg" />
+            <div class="images-container">
+                <div class="image">
+                    <img src="static/images/black.png" />
                 </div>
-                <div class="image-container">
-                    <img src="static/images/red.jpg" />
-                </div>
-                <div class="image-container">
-                    <img src="static/images/gray.jpg" />
+                <div class="image">
+                    <img src="static/images/red.png" />
                 </div>
             </div>
-            <div class="btn btn-prev">
+            <div class="btn" id="next">
                 <i class="material-icons">keyboard_arrow_right</i>
             </div>
         </div>

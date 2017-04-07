@@ -2,40 +2,57 @@ html {
     height: 100%;
     display: flex;
 }
+
 body {
     display: flex;
     flex: 1;
     overflow: hidden;
 }
+
 input:focus {
     outline: none;
 }
+
 
 .main-container {
     flex: 1;
     display: flex;
     align-items: stretch;
-    justify-content: center;
-}
-
-.img-container {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .btn {
     display: flex;
+    flex: 1;
     align-items: center;
+    justify-content: center;
     cursor: pointer;
 }
 
 .btn i{
     font-size: 5em;
     color: transparent;
+    transition: color 0.2s ease-in;
 }
 
 .btn:hover i{
     color: gray;
+}
+
+.images-container {
+    width: 800px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.image.slick-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slick-track {
+    display: flex;
+    align-items: center;
 }
