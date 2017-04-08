@@ -30,13 +30,21 @@ input:focus {
 }
 
 .btn i{
-    font-size: 5em;
+    font-size: 6em;
     color: transparent;
-    transition: color 0.2s ease-in;
+    transition: all 0.2s ease-in;
 }
 
 .btn:hover i{
     color: gray;
+}
+
+.btn-prev:active i{
+    transform: translateX(-20px);
+}
+
+.btn-next:active i{
+    transform: translateX(20px);
 }
 
 .images-container {
