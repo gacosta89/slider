@@ -1,0 +1,33 @@
+{
+    "autos": [{
+        "nombre": "bmw negro",
+        "color": "negro",
+        "tipo": "deportivo",
+        "marca": "bmw",
+        "foto": "bmw-negro.png"
+    }, {
+        "nombre": "bmw azul",
+        "color": "azul",
+        "tipo": "sedán",
+        "marca": "bmw",
+        "foto": "bmw-azul.jpg"
+    }, {
+        "nombre": "mercedes gris",
+        "color": "gris",
+        "tipo": "sedán",
+        "marca": "mercedes",
+        "foto": "mercedes-gris.png"
+    }, {
+        "nombre": "passat azul",
+        "color": "azul",
+        "tipo": "sedán",
+        "marca": "volkswagen",
+        "foto": "passat-azul.png"
+    }, {
+        "nombre": "audi rojo",
+        "color": "rojo",
+        "tipo": "sedán",
+        "marca": "audi",
+        "foto": "audi-rojo.png"
+    }]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "workshop-nahual",
+  "version": "1.0.0",
+  "description": "workshop for an introduction to web applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gacosta89/slider.git"
+  },
+  "keywords": [
+    "slider",
+    "html",
+    "javascript",
+    "jquery"
+  ],
+  "author": "Gonzalo Acosta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gacosta89/slider/issues"
+  },
+  "homepage": "https://github.com/gacosta89/slider#readme",
+  "dependencies": {
+    "http-server": "^0.9.0"
+  }
+}

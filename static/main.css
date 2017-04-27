@@ -9,10 +9,10 @@ body {
     overflow: hidden;
 }
 
-input:focus {
+input:focus, i, i:focus, i:active {
     outline: none;
+    user-select: none;
 }
-
 
 .main-container {
     flex: 1;
@@ -49,6 +49,7 @@ input:focus {
 
 .images-container {
     width: 800px;
+    height: 100%;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -58,6 +59,10 @@ input:focus {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.image {
+    outline: none;
 }
 
 .slick-track {
