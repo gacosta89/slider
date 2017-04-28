@@ -1,0 +1,30 @@
+
+# TODO
+
+## Hola Mundo:
+
+	* Crear una página web que muestre el famoso texto 'HOLA MUNDO!' ('HELLO WORLD')
+
+	* Mostrar los bordes de la caja que contiene el texto 'HOLA MUNDO' y cambiar el tamaño de la caja a 300 x 300 px
+
+	* Centrar la caja en el documento
+
+### Recursos:
+
+	* [Tutorial HTML5 w3schools](https://www.w3schools.com/html/html_intro.asp)
+
+	* [Tutorial css w3schools](https://www.w3schools.com/css/css_syntax.asp)
+
+## Temas:
+
+### Etiquetas HTML (html tags)
+
+### Navegadores Web (web browsers)
+
+### Modelo de cajas (box model)
+
+### CSS selectores, propiedades y atributos
+
+	* ancho (width), alto (height), borde (border)
+
+	* display, flexbox
