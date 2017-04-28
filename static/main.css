@@ -5,20 +5,30 @@ body {
 
     /* alineamiento*/
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
-.hola-mundo {
+.caja {
     /* tamaño del hola mundo 300px x 300px */
     height: 300px;
     width: 300px;
-
-    /* borde del hola mundo */
-    border: 1px solid black;
 
     /* alineamiento*/
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.verde {
+    /* background-color setea el color del fondo de un elemento*/
+    background-color: green;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.rojo {
+    background-color: red;
 }
